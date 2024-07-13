@@ -141,20 +141,22 @@ img {
   margin: 0 auto 48px;
   max-width: 496px;
 }
-
-.container-hero {
+.hero {
   background: #2e2f42;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
     url(../imag-header/people-office\ 1.jpg);
-  padding: 188px 0;
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  padding: 188px 0;
 }
+/*.container-hero {
+  padding: 188px 0;
+}*/
 .service-button {
   font-weight: 500;
   font-size: 16px;
@@ -243,20 +245,7 @@ img {
   align-items: center;
   gap: 24px;
 }
-.team-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 32px;
-  border-radius: 0 0 4px 4px;
-  /* padding: 0px 0px 32px 0px;*/
-  width: 264px;
-  height: 428px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background: #fff;
-}
+
 .team-list-img {
   margin-bottom: 32px;
 }
@@ -267,7 +256,6 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  /*margin-bottom: 8px;*/
 }
 .team-list-description {
   font-weight: 400;
@@ -276,29 +264,29 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
 }
-/*.team-list-item {
+.team-list-item {
   background-color: #ffffff;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   border-radius: 0 0 4px 4px;
-   padding: 0px 0px 32px 0px;
+  padding: 0px 0px 32px 0px;
   width: calc((100% - 72px) / 4);
   height: 380px;
-}*/
+}
+.box-img-list {
+  padding: 32px 0;
+}
 .team-card-content {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  /*padding: 32px 16px;*/
+
   width: 232px;
   height: 104px;
 }
 .links-box {
-  /*display: flex;
-  justify-content: center;
-  gap: 24px;*/
   width: 232px;
   height: 40px;
   display: flex;
@@ -307,10 +295,7 @@ img {
   flex-direction: row;
   gap: 24px;
 }
-/*.llinks-box-item {
-  width: 40px;
-  height: 40px;
-}*/
+
 .list-links-items {
   width: 40px;
   height: 40px;
@@ -389,7 +374,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   top: 0px;
-  padding: 40px, 32px;
+  padding: 40px 32px;
   height: 100%;
   width: 100%;
   transform: translateY(100%);
