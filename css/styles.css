@@ -147,16 +147,14 @@ img {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../imag-header/people-office\ 1.jpg);
+    url(../images/imag-hero/people-office\ 1.jpg);
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding: 188px 0;
 }
-/*.container-hero {
-  padding: 188px 0;
-}*/
+
 .service-button {
   font-weight: 500;
   font-size: 16px;
@@ -282,10 +280,9 @@ img {
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-
+  padding: 32px 0px;
   width: 232px;
   height: 104px;
-  padding: 32px 0;
 }
 .links-box {
   width: 232px;
